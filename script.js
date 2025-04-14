@@ -5,7 +5,7 @@
                 {
                     title: "Bank Account Opening",
                     description: "Find all required documents to open a new bank account in any major bank.",
-                    link: "/banking.html#account-opening"
+                    link: "categories/docs/savings_account.html"
                 },
                 {
                     title: "Passport Application",
