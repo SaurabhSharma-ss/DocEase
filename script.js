@@ -3,29 +3,29 @@
             // Service cards data
             const services = [
                 {
-                    title: "Bank Account Opening",
-                    description: "Find all required documents to open a new bank account in any major bank.",
+                    title: "Savings Account Opening",
+                    description: "Find all required documents to open a new saving account in any major bank.",
                     link: "categories/docs/savings_account.html"
                 },
                 {
                     title: "Passport Application",
                     description: "Complete document checklist for new passport applications and renewals.",
-                    link: "#"
+                    link: "categories/docs/passportapplication.html"
                 },
                 {
                     title: "Life Insurance",
                     description: "Required documents for life insurance policy applications across providers.",
-                    link: "#"
+                    link: "categories/docs/termlifeinsurance.html"
                 },
                 {
-                    title: "Education Loans",
-                    description: "Comprehensive document requirements for education loan applications.",
-                    link: "#"
+                    title: "Various Loans",
+                    description: "Comprehensive document requirements for various loan applications.",
+                    link: "categories/docs/loan.html"
                 },
                 {
                     title: "Health Insurance",
                     description: "Document checklist for health insurance applications and claims.",
-                    link: "#"
+                    link: "categories/docs/healthinsurance.html"
                 },
                 {
                     title: "Pan Card",
