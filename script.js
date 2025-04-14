@@ -30,7 +30,7 @@
                 {
                     title: "Pan Card",
                     description: "Everything you need to apply for or update your pan card.",
-                    link: "categories/docs/pan.html"
+                    link: "categories/docs/pan_card.html"
                 }
             ];
 
