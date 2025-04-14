@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Banking Services</title>
+    <link rel="stylesheet" href="cat_style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">DocEase</div>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="insurance.html">Insurance Doc</a></li>
+            <li><a href="government.html">Government Scheme</a></li>
+            <li><a href="basic.html">Basic Doc</a></li>
+            <li><a href="education.html">Education Doc</a></li>
+            <li><a href="travel.html">Travel Services</a></li>
+        </ul>
+    </nav>
+
+    <h1 class="main-title">Banking Services</h1>
+
+    <div class="card-container" id="bankingCards"></div>
+
+    <script>
+        const services = [
+            {
+                title: "Fixed Deposit Account",
+                desc: "Secure your money with a high-interest FD plan and grow your savings with assured returns.",
+                link: "docs/fixed_deposit.html"
+            },
+            {
+                title: "Premium Savings Account",
+                desc: "Open a zero balance savings account with exclusive benefits and rewards.",
+                link: "docs/savings_account.html"
+            },
+            {
+                title: "Quick Loan Application",
+                desc: "Apply for personal, education, or home loans with minimal documentation and fast approval.",
+                link: "docs/loan.html"
+            },
+            {
+                title: "Smart Net Banking",
+                desc: "Access all your banking services online with enhanced security and user-friendly interface.",
+                link: "docs/netbanking.html"
+            },
+            {
+                title: "Premium Card Services",
+                desc: "Apply for premium credit/debit cards with exclusive benefits, rewards, and global acceptance.",
+                link: "docs/cardservices.html"
+            },
+            {
+                title: "Instant Balance Check",
+                desc: "Check your account balance and view recent transactions in real-time.",
+                link: "docs/balance.html"
+            }
+            
+        ];
+
+        const container = document.getElementById("bankingCards");
+        services.forEach(service => {
+            const card = document.createElement("div");
+            card.className = "card";
+            card.innerHTML = `
+                <div>
+                    <h3>${service.title}</h3>
+                    <p>${service.desc}</p>
+                </div>
+                <a href="${service.link}">Get Started</a>
+            `;
+            container.appendChild(card);
+        });
+    </script>
+
+</body>
+</html>
